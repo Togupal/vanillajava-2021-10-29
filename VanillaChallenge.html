@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla Challenge</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!--geo location-->
+    <div id="weather&location" class="geolocations">
+      <span id="city" class="geolocations_info"></span>
+      <span id="weather" class="geolocations_info"></span>
+      <span id="temperature" class="geolocations_info"></span>
+    </div>
+
+    <!--clock-->
+    <h2 id="clock">00:00:00</h2>
+
+    <!--login-->
+    <form id="loggin-form" class="hidden">
+      <input
+        required
+        maxlength="20"
+        placeholder="Write you are name"
+        type="text"
+      />
+    </form>
+    <h3 id="greeting" class="hidden"></h3>
+
+    <!--to Do list-->
+    <form id="todo-form">
+      <input required type="text" placeholder="Write To do and Press Enter" />
+    </form>
+    <ul id="todo-list"></ul>
+
+    <!--fun videos-->
+    <div id="fun_videos">
+      <h3 class="fun_videos_title">Random Fun Video</h3>
+      <a class="fun_videos_info"></a>
+      <span class="fun_videos_info"></span>
+    </div>
+    <script src="js/login.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/Funvideos.js"></script>
+    <script src="js/Background.js"></script>
+    <script src="js/TODO.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>

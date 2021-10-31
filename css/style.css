@@ -1,0 +1,130 @@
+@import "reset.css";
+/*login form & greeting */
+.hidden {
+  display: none;
+}
+
+#loggin-form {
+  margin-top: 60px;
+  text-align: center;
+}
+
+#loggin-form input {
+  padding: 15px 10px 15px 10px;
+  border: none;
+  background-color: transparent;
+  font-size: 22px;
+  font-weight: 600;
+  color: rgba(9, 82, 48, 0.555);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+  width: 15%;
+  text-align: center;
+}
+
+#greeting {
+  font-size: 30px;
+  margin-top: 60px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/*geolocation*/
+.geolocations {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.geolocations_info {
+  font-size: 15px;
+  font-weight: 600;
+}
+/*just clock*/
+#clock {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 100px;
+}
+
+/*to do list*/
+#todo-form {
+  margin-top: 20px;
+  padding: 25px;
+  text-align: center;
+}
+
+#todo-form input {
+  padding: 15px 10px 15px 10px;
+  border: none;
+  background-color: transparent;
+  font-size: 17px;
+  font-weight: 600;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+  width: 15%;
+  text-align: center;
+}
+#todo-form input::placeholder {
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+}
+
+#todo-list {
+  text-align: center;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+#todo-list li {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#todo-list button {
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  top: -2px;
+}
+
+#todo-list::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/*more sexy input layout*/
+input:focus {
+  outline: none;
+}
+
+/*fun video*/
+#fun_videos {
+  position: fixed;
+  width: 100%;
+  bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fun_videos_title {
+  margin: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.fun_videos_info {
+  margin: 5px;
+}
+
+/*background img*/
+img {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
